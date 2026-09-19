@@ -1,0 +1,7 @@
+S&P 500 monthly nominal close
+  Source: datasets/s-and-p-500 (Shiller series)
+  https://github.com/datasets/s-and-p-500
+  Channel used in the engine: log-return of the last 1200 months (1926-09 to 2026-08).
+
+Sensor and traffic series are synthetic, with planted periods documented in the inspector.
+The n² mod 41 lattice is a mathematical control, not a measurement.

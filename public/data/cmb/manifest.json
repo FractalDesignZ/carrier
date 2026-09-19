@@ -1,0 +1,49 @@
+{
+  "sky": {
+    "product": "WMAP 9-year Internal Linear Combination",
+    "file": "wmap_ilc_9yr_v5.fits",
+    "citation": "Bennett et al. 2013, ApJS 208, 20",
+    "url": "https://lambda.gsfc.nasa.gov/product/wmap/dr5/ilc_map_info.html",
+    "coordinate": "Galactic",
+    "ordering": "NESTED",
+    "nsideNative": 512,
+    "nside": 64,
+    "npix": 49152,
+    "units": "uK_CMB",
+    "nativeUnits": "mK thermodynamic",
+    "monopoleSubtracted_uK": 2.03883,
+    "rms_uK": 66.5124,
+    "min_uK": -315.52,
+    "max_uK": 261.444,
+    "eq": {
+      "width": 384,
+      "height": 192,
+      "file": "wmap-ilc-eq.bin"
+    },
+    "healpix": "wmap-ilc-n64.bin",
+    "alm": "wmap-ilc-alm.json",
+    "lmax": 48,
+    "beamNote": "ILC effective resolution ~1\u00b0. Nside=64 pixels are 55\u2032. Harmonic analysis is honest to \u2113 \u2272 100."
+  },
+  "spectrum": {
+    "product": "Planck PR3 CMB TT",
+    "citation": "Planck Collaboration 2020, A&A 641, A5 and A6",
+    "full": "planck-tt-full.json",
+    "binned": "planck-tt-binned.json",
+    "theory": "planck-tt-theory.json",
+    "fullNote": "\u2113=2\u201329 Commander (86% sky); \u2113\u226530 Plik half-mission cross-spectrum.",
+    "D2_planck": {
+      "ell": 2,
+      "D": 225.895,
+      "errLo": 132.369,
+      "errHi": 533.062
+    },
+    "D2_map": {
+      "ell": 2,
+      "D": 213.0442,
+      "C": 223.099
+    }
+  },
+  "claim": "physics",
+  "notIncluded": "Planck SMICA Nside=2048 FITS is 2.0 GB \u2014 not a browser product. The official TT spectrum is the Planck analysis; the sky pixels are WMAP 9-year ILC."
+}

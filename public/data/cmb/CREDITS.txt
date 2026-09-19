@@ -1,0 +1,25 @@
+CARRIER — observed CMB products
+
+Sky map
+  WMAP 9-year Internal Linear Combination (ILC)
+  File: wmap_ilc_9yr_v5.fits (NASA LAMBDA)
+  Bennett, C.L. et al. 2013, ApJS 208, 20
+  https://lambda.gsfc.nasa.gov/product/wmap/dr5/ilc_map_info.html
+  Native: HEALPix nested, Nside=512, Galactic, mK thermodynamic
+  Shipped: equal-area average to Nside=64, μK, monopole subtracted
+
+Angular power spectrum
+  Planck Public Release 3 (PR3) CMB TT
+  COM_PowerSpect_CMB-TT-full_R3.01.txt
+  COM_PowerSpect_CMB-TT-binned_R3.01.txt
+  COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt
+  Planck Collaboration 2020, A&A 641, A5 and A6
+  ℓ = 2–29: Commander, 86% of the sky
+  ℓ ≥ 30: Plik half-mission cross-spectrum
+
+Not shipped
+  Planck SMICA Nside=2048 FITS (2.0 GB). The official TT spectrum is the
+  Planck analysis product; pixel-level last-scattering geometry is the
+  WMAP ILC, which is the public full-sky ΔT map that fits in a browser.
+
+WMAP and Planck data are public. Please cite the papers above.
